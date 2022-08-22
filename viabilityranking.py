@@ -6,7 +6,7 @@ Created on Mon Mar 29 07:11:13 2021
 """
 import numpy as np
 
-from IPython import get_ipython
+# from IPython import get_ipython
 
 import time
 

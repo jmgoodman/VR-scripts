@@ -5,7 +5,7 @@ Created on Mon Mar 29 22:39:50 2021
 @author: Jorgen
 """
 import numpy as np
-from IPython import get_ipython
+# from IPython import get_ipython
 import time
 
 # %%
@@ -35,7 +35,7 @@ def partition(arr, low, high):
         # catch the buffer case
         if j == high:
             try: # gotta do this, otherwise trying to manually halt execution doesn't work
-                get_ipython().magic('clear')
+                # get_ipython().magic('clear')
                 time.sleep(0.05)
                 antwort  = input( 'Type "oops" if previous answer was in error: ' )
                 
@@ -133,13 +133,14 @@ def lgtr(lel,rel):
     isdone = False
     while not isdone:
         try: # gotta do this, otherwise trying to manually halt execution doesn't work
-            get_ipython().magic('clear')
+            # get_ipython().magic('clear')
             time.sleep(0.05)
             antwort  = input( 'Which Pokemon is stronger?\n%s(1) | %s(2): ' \
                              % (val1,val2) )
             
             print('your answer was: %s' % antwort)
             time.sleep(0.2)
+            print('Type "oops" if previous answer was in error!')
             
             if antwort == 'exit': # this is really annoying, but the only way I can think to get it to respect keyboard interrupts
                 raise Exception("Please work") # and don't you DARE try to halt execution with ctrl+c while in the middle of an input sequence. that WILL break things.
