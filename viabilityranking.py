@@ -68,7 +68,7 @@ UUpokes   = list({'Ampharos','Arcanine','Bellossom','Blastoise','Crobat','Dodrio
                   'Omastar','Pikachu','Piloswine','Pinsir','Politoed','Quagsire','Qwilfish',\
                   'Sandslash','Scyther','Slowbro','Slowking','Victreebel','Vileplume',\
                   'Feraligatr','Golduck','Poliwrath','Raichu'})
-# this list again culls everything which is not fully evolved. There are no compelling exceptions, unlike in UU. I also omit Unown because come the fuck on.
+# this list again culls everything which is not fully evolved. There are no compelling exceptions, unlike in UU. I also omit Unown because come on.
 NUpokes    = list({'Aipom','Arbok','Ariados','Azumarill','Beedrill','Butterfree','Corsola',\
                    'Delibird','Dewgong','Ditto','Dugtrio','Dunsparce','Farfetch\'d',\
                    'Fearow','Flareon','Furret','Hitmonchan','Hitmonlee','Hitmontop',\

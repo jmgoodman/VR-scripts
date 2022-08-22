@@ -43,7 +43,7 @@ def partition(arr, low, high):
                 time.sleep(0.2)
                 
                 if antwort == 'exit': # this is really annoying, but the only way I can think to get it to respect keyboard interrupts
-                    raise Exception("Please fucking work") # and don't you DARE try to halt execution with ctrl+c while in the middle of an input sequence. that WILL break things.
+                    raise Exception("Please work") # and don't you DARE try to halt execution with ctrl+c while in the middle of an input sequence. that WILL break things.
             
                 if antwort == 'oops': # assume this state cannot possibly be entered immediately after an oops
                     j        = j-1
@@ -142,7 +142,7 @@ def lgtr(lel,rel):
             time.sleep(0.2)
             
             if antwort == 'exit': # this is really annoying, but the only way I can think to get it to respect keyboard interrupts
-                raise Exception("Please fucking work") # and don't you DARE try to halt execution with ctrl+c while in the middle of an input sequence. that WILL break things.
+                raise Exception("Please work") # and don't you DARE try to halt execution with ctrl+c while in the middle of an input sequence. that WILL break things.
             
             if antwort == 'oops':
                 return 'oops'
